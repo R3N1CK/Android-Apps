@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_about"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:padding="4dip">
+
+  <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_gravity="center"
+      android:paddingTop="16dip"
+      android:text="MediBud"
+      android:textColor="#121B2A"
+      android:textSize="24dip"
+      android:textStyle="bold" />
+
+  <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_gravity="center"
+      android:paddingTop="16dip"
+      android:text="How to Use:"
+      android:textColor="#121B2A"
+      android:textSize="16dip" />
+
+  <TextView
+      android:layout_width="338dp"
+      android:layout_height="wrap_content"
+      android:layout_gravity="center"
+      android:paddingTop="16dip"
+      android:text='1- Create a New Medicine by clicking on "Add Tablet \n 2- Enter Details \n 3- Click on Done \n Note: Will work even if the app is closed (Not supported for Oreo+)'
+      android:textColor="#121B2A"
+      android:textSize="16dip" />
+
+  <TextView
+      android:id="@+id/alarms_created_text"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_gravity="center"
+      android:paddingTop="16dip"
+      android:text="..."
+      android:textSize="16dip" />
+
+</LinearLayout>
+

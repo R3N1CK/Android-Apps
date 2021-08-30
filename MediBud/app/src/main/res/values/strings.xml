@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MediBud</string>
+
+    <string-array name="occurence">
+        <item>Once</item>
+        <item>Custom</item>
+    </string-array>
+
+</resources>
+
